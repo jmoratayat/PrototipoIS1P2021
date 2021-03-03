@@ -37,6 +37,7 @@ namespace CapaVista
             this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.asignacionCursoAMaestroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.seguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,7 +61,7 @@ namespace CapaVista
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.txtusuario = new System.Windows.Forms.TextBox();
-            this.asignacionCursoAMaestroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoMaestroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -109,7 +110,8 @@ namespace CapaVista
             // mantenimientosToolStripMenuItem
             // 
             this.mantenimientosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mantenimientoToolStripMenuItem});
+            this.mantenimientoToolStripMenuItem,
+            this.mantenimientoMaestroToolStripMenuItem});
             this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
             this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.mantenimientosToolStripMenuItem.Text = "Catalogos";
@@ -117,8 +119,8 @@ namespace CapaVista
             // mantenimientoToolStripMenuItem
             // 
             this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
-            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
+            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.mantenimientoToolStripMenuItem.Text = "Mantenimiento Curso";
             this.mantenimientoToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoToolStripMenuItem_Click);
             // 
             // procesosToolStripMenuItem
@@ -128,6 +130,13 @@ namespace CapaVista
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.procesosToolStripMenuItem.Text = "Procesos";
+            // 
+            // asignacionCursoAMaestroToolStripMenuItem
+            // 
+            this.asignacionCursoAMaestroToolStripMenuItem.Name = "asignacionCursoAMaestroToolStripMenuItem";
+            this.asignacionCursoAMaestroToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
+            this.asignacionCursoAMaestroToolStripMenuItem.Text = "Asignacion curso a maestro";
+            this.asignacionCursoAMaestroToolStripMenuItem.Click += new System.EventHandler(this.asignacionCursoAMaestroToolStripMenuItem_Click);
             // 
             // reportesToolStripMenuItem
             // 
@@ -298,12 +307,12 @@ namespace CapaVista
             this.txtusuario.Size = new System.Drawing.Size(100, 20);
             this.txtusuario.TabIndex = 4;
             // 
-            // asignacionCursoAMaestroToolStripMenuItem
+            // mantenimientoMaestroToolStripMenuItem
             // 
-            this.asignacionCursoAMaestroToolStripMenuItem.Name = "asignacionCursoAMaestroToolStripMenuItem";
-            this.asignacionCursoAMaestroToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.asignacionCursoAMaestroToolStripMenuItem.Text = "Asignacion curso a maestro";
-            this.asignacionCursoAMaestroToolStripMenuItem.Click += new System.EventHandler(this.asignacionCursoAMaestroToolStripMenuItem_Click);
+            this.mantenimientoMaestroToolStripMenuItem.Name = "mantenimientoMaestroToolStripMenuItem";
+            this.mantenimientoMaestroToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.mantenimientoMaestroToolStripMenuItem.Text = "Mantenimiento Maestro";
+            this.mantenimientoMaestroToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoMaestroToolStripMenuItem_Click);
             // 
             // MDIPrincipal
             // 
@@ -362,6 +371,7 @@ namespace CapaVista
         private System.Windows.Forms.ToolStripMenuItem mantenimiendoAplicacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem asignacionCursoAMaestroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoMaestroToolStripMenuItem;
     }
 }
 

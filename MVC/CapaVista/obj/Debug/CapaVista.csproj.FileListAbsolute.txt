@@ -64,3 +64,4 @@ C:\Users\jmora\Desktop\Git\Parcial1\PrototipoIS1P2021\MVC\CapaVista\bin\Debug\Ca
 C:\Users\jmora\Desktop\Git\Parcial1\PrototipoIS1P2021\MVC\CapaVista\bin\Debug\CapaModeloNavegador.pdb
 C:\Users\jmora\Desktop\Git\Parcial1\PrototipoIS1P2021\MVC\CapaVista\obj\Debug\CapaVista.csproj.CopyComplete
 C:\Users\jmora\Desktop\Git\Parcial1\PrototipoIS1P2021\MVC\CapaVista\obj\Debug\CapaVista.Procesos.frmProceso.resources
+C:\Users\jmora\Desktop\Git\Parcial1\PrototipoIS1P2021\MVC\CapaVista\obj\Debug\CapaVista.Mantenimientos.frmMantenimientoAsignacion.resources
