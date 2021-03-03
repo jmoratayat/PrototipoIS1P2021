@@ -28,8 +28,8 @@ namespace CapaVista
             List<Control> lista = new List<Control>();
             //llenado de  parametros para la aplicacion 
             navegador1.aplicacion = 301;
-            navegador1.tbl = "login";
-            navegador1.campoEstado = "estado_login";
+            navegador1.tbl = "cursos";
+            navegador1.campoEstado = "estatus_curso";
 
             //se agregan los componentes del formulario a la lista tipo control
             foreach (Control C in this.Controls)
@@ -67,6 +67,16 @@ namespace CapaVista
             navegador1.ruta = "Ayuda_Mantenimiento_Centros.html";
             rbHabilitado.Checked = true;
            rbDeshabilitado.Checked = false;
+        }
+
+        private void rbHabilitado_CheckedChanged(object sender, EventArgs e)
+        {
+            txtEstado.Text = "1";
+        }
+
+        private void rbDeshabilitado_CheckedChanged(object sender, EventArgs e)
+        {
+            txtEstado.Text = "0";
         }
     }
 }
